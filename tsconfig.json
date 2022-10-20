@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2019",
+        "strict": true,
+        "importHelpers": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "types": [
+            "node",
+            "jest"
+        ],
+        "allowJs": true
+    },
+    "paths": {
+        "@/*": [
+            "src/*"
+        ]
+    },
+    "include": [
+        "./src/**/*",
+        "./tests/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
