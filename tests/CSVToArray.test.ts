@@ -15,6 +15,5 @@ test('adds 1 + 2 to equal 3', () => {
     ['喝采', ' kassai', ' aplauso aclamacion'],
     [''],
   ]
-  console.log(csvData[0])
   expect(csvData).toEqual(expectedResult)
 })
