@@ -18,6 +18,3 @@ test('adds 1 + 2 to equal 3', () => {
   console.log(csvData[0])
   expect(csvData).toEqual(expectedResult)
 })
-
-test.only('array map', () => {})
-
